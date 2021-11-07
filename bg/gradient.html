@@ -49,10 +49,10 @@ let optStatus = getSearchObj(window.location.search).color;
 if(optStatus){
   optStatus = optStatus.split(',');
   const canvasEl = document.querySelector('#gradient-canvas');
-  canvasEl.style.setProperty('--gradient-color-1', '#'+optStatus[0]);
-  canvasEl.style.setProperty('--gradient-color-2', '#'+optStatus[1]);
-  canvasEl.style.setProperty('--gradient-color-3', '#'+optStatus[2]);
-  canvasEl.style.setProperty('--gradient-color-4', '#'+optStatus[3]);
+  if(optStatus[0]) canvasEl.style.setProperty('--gradient-color-1', '#'+optStatus[0]);
+  if(optStatus[1]) canvasEl.style.setProperty('--gradient-color-2', '#'+optStatus[1]);
+  if(optStatus[2]) canvasEl.style.setProperty('--gradient-color-3', '#'+optStatus[2]);
+  if(optStatus[3]) canvasEl.style.setProperty('--gradient-color-4', '#'+optStatus[3]);
 }
 </script>
 <script src="Gradient.min.js"></script>
