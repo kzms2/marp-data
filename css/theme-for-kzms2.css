@@ -1,6 +1,9 @@
 /* @theme theme-for-kzms2 */
 
-@import "gaia";
+@import url("./src/sunburst.css");
+@import url("./src/gaia.css");
+
+/* @import "gaia"; */
 
 section {
   --color-highlight: #ae0327;
