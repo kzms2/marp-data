@@ -3,13 +3,11 @@
 @import url("./src/sunburst.css");
 @import url("./src/gaia.css");
 
-/* @import "gaia"; */
-
 section {
   --color-highlight: #ae0327;
   padding: 40px 70px;
   font-family: "Osaka";
-  background: #fff url(img/hero-background.jpg);
+  background: #fff url(https://kzms2.github.io/marp-data/hero-background.jpg);
 }
 section.lead {
   /* --color-highlight: #ff76bb; */
@@ -153,7 +151,7 @@ section[data-marpit-advanced-background-split] h2 {
   bottom: -10px;
   height: 720px;
   width: 720px;
-  background: url(../slide/img/gokuu_kzms2.png) no-repeat 100% 100%;
+  background: url(https://kzms2.github.io/marp-data/gokuu_kzms2.png) no-repeat 100% 100%;
   background-size: contain;
   pointer-events: none;
 }
@@ -172,7 +170,7 @@ section[data-marpit-advanced-background-split] h2 {
   top: 0;
   height: 720px;
   width: 932px;
-  background: url(../slide/img/kokabe_prof.png) no-repeat 100% 100%;
+  background: url(https://kzms2.github.io/marp-data/kokabe_prof.png) no-repeat 100% 100%;
   background-size: contain;
   pointer-events: none;
 }
@@ -221,7 +219,7 @@ section.faq--chat h1::before,
 section.faq--chat h2::before,
 section.faq--chat h3::before {
   right: -130px;
-  background-image: url(img/kokabe_bg_white.png);
+  background-image: url(https://kzms2.github.io/marp-data/kokabe_bg_white.png);
   background-size: 100px;
   background-position: 50% 50%;
   content: "";
@@ -235,7 +233,7 @@ section.faq--chat h3::before {
   text-align: center;
 }
 section.faq--chat > :first-child::before {
-  background-image: url(img/user.png);
+  background-image: url(https://kzms2.github.io/marp-data/user.png);
   background-size: 90px;
   left: -130px;
   background-position: 50% 10px;
