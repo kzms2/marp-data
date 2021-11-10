@@ -1,7 +1,7 @@
 /* @theme theme-for-kzms2 */
 
-@import url("./src/sunburst.css");
-@import url("./src/gaia.css");
+@import url("https://kzms2.github.io/marp-data/css/src/sunburst.css");
+@import url("https://kzms2.github.io/marp-data/css/src/gaia.css");
 
 section {
   --color-highlight: #ae0327;
